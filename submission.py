@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = ' '
+url = 'https://6rlj4ydnkovjlz2b5w75pgpnwu0chhfp.lambda-url.us-east-1.on.aws/'
 
 payload = {
 			"submitterEmail": " ", # your email as it appears on the MP instruction page
