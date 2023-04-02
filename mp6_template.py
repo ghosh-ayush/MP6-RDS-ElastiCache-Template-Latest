@@ -5,6 +5,7 @@ import redis
 import pymysql
 
 
+# TODO 1
 DB_HOST = " " # Add DB end point
 DB_USER = " " # Add your database user
 DB_PASS = " " # Add your database password
@@ -49,6 +50,7 @@ class DB:
             cursor.execute(sql)
             self.mysql.commit()
 
+ # TODO 2
 def read(use_cache, xps, Database, Cache):
     # Implement Lazy Loading strategy
     
@@ -61,6 +63,8 @@ def read(use_cache, xps, Database, Cache):
     
     return result
     
+    
+# TODO 3
 def write(use_cache, sqls, Database, Cache):
     # Implement Write Through strategy
     
