@@ -6,12 +6,12 @@ import pymysql
 
 
 # TODO 1
-DB_HOST = " " # Add DB end point
-DB_USER = " " # Add your database user
-DB_PASS = " " # Add your database password
-DB_NAME = " " # Add your database name
-DB_TABLE = " " # Add your table name
-REDIS_URL = " " # Add redis end point "redis://<end point>"
+DB_HOST = " " # Add DB end point "mp6-rds-database....amazonaws.com"
+DB_USER = " " # Add your database user "user"
+DB_PASS = " " # Add your database password "password"
+DB_NAME = " " # Add your database name "mp6"
+DB_TABLE = " " # Add your table name "heroes"
+REDIS_URL = " " # Add redis end point "redis://mp6-redis-cluster.....amazonaws.com:port_number"
 
 TTL = 60
 
